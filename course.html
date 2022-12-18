@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>КВПТК - Ресми сайты</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">БАСТЫ БЕТ</a></li>
+                <li><a href="about.html">БІЗ ТУРАЛЫ</a></li>
+                <li><a href="course.html">КУРСТАР</a></li>
+                <li><a href="blog.html">БЛОГ</a></li>
+                <li><a href="contact.html">БАЙЛАНЫС</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Біздің курстар</h1>
+</section>
+
+<!------ Course ------>
+
+<section class="course">
+    <h1>"ҚЖПТК" туралы үш факт</h1>
+    <p>Шындығында, біз туралы бұдан да қызықты фактілер бар.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h2>1931</h2>
+            <p>құрылған жылы. Біз сіздер үшін<br>100 жылға жуық уақыт жұмыс істеп келеміз!</p>
+        </div>
+        <div class="course-col">
+            <h2>Топ 10</h2>
+            <p>техникалық және кәсіптік білім арасында,<br>орта білімнен кейінгі білім!</p>
+        </div>
+        <div class="course-col">
+            <h2>15</h2>
+            <p>өзекті техникалық мамандықтар<br>сіз үшін!</p>
+        </div>
+    </div>
+</section>
+
+<!----- Facilities ----->
+<section class="facilities">
+    <h1>Уақытты бекерге кетірмеңіз</h1>
+    <p>Түрлі үйірмелер және мекемелердге қатысып, сайыстарға барып жүлделі орын алуға мүмкіндіктеріңіз бар.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>Кітапхана</h3>
+            <p>Кітап - білімнің қайнар көзі,- демекші. Бос уақытыңызда кітапханамызға барып түрлі отандық немесе шетелдік әдебиеттерді оқи аласыз.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/centre-competenci.png">
+            <h3>Центр компетенции</h3>
+            <p>Компьютерлік бағдарлама, 3D Графика, Робототехникамен жұмыс істеуге толық жағдай жасалған арнайы жабдықталған бөлмелерде жұмыс жасағыңыз келсе, біздің колледжі таңдаңыз.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/concert.png">
+            <h3>Концерттік зал</h3>
+            <p>Егер түрлі концерттерге қатысып өнеріңізді көрсеткіңіз келсе осы жерде барлық жол ашылған.</p>
+        </div>
+    </div>
+</section>
+
+<!-- --- Footer ----->
+
+<section class="footer">
+    <h4>Біз туралы</h4>
+    <p>1931 жылы құрылған, 19 мамандықты оқытатын колледж</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/groups/KVPTK/"><i class="fa fa-facebook"></i></a>
+        <a href="https://vk.com/kptk.karaganda"><i class="fa fa-vk"></i></a>
+        <a href="https://www.instagram.com/qjptk_krg/"><i class="fa fa-instagram"></i></a>
+    </div>
+    <p>Made by <i class="fa fa-heart-o"></i> Maev Abzal</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+</body>
+</html>

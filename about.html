@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>КВПТК - Ресми сайты</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">БАСТЫ БЕТ</a></li>
+                <li><a href="about.html">БІЗ ТУРАЛЫ</a></li>
+                <li><a href="course.html">КУРСТАР</a></li>
+                <li><a href="blog.html">БЛОГ</a></li>
+                <li><a href="contact.html">БАЙЛАНЫС</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Біз туралы</h1>
+</section>
+
+<!----------- about us content -------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>90 жылдық тарихы бар колледж</h1>
+            <p>История колледжа началась в 1931 году. Образовательное учреждение несколько раз меняло статус: учебно-производственный комбинат, Карагандинский горный техникум, горно-механический колледж, политехнический колледж, КГКП «Карагандинский высший политехнический колледж» управления образования Карагандинской области. На сегодняшний день в колледже обучается более 4 тыс. студентов по 19 специальностям.</p>
+            <a href="https://kvptk.edu.kz/kz/kolledzh-tarihy" class="hero-btn red-btn">ТОЛЫҚ ТАРИХЫ</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.png">
+        </div>
+    </div>
+</section>
+
+
+<!-- --- Footer ----->
+
+<section class="footer">
+    <h4>Біз туралы</h4>
+    <p>1931 жылы құрылған, 19 мамандықты оқытатын колледж</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/groups/KVPTK/"><i class="fa fa-facebook"></i></a>
+        <a href="https://vk.com/kptk.karaganda"><i class="fa fa-vk"></i></a>
+        <a href="https://www.instagram.com/qjptk_krg/"><i class="fa fa-instagram"></i></a>
+    </div>
+    <p>Made by <i class="fa fa-heart-o"></i> Maev Abzal</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+</body>
+</html>
