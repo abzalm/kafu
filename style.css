@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
 }
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/banner.png);
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/collage.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -14,7 +14,7 @@
 .text-box{
     letter-spacing: -0.5px;
     word-spacing: 3px;
-    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
 }
 .text-box p{
     font-weight: normal;
@@ -47,7 +47,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #e034be;
+    background: #4e34e0;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -65,11 +65,11 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 7vh;
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 3vh;
     color: #fff;
 }
 .hero-btn{
@@ -82,10 +82,11 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    background-color: #3453e03e;
 }
 .hero-btn:hover{
-    border: 1px solid #e034be;
-    background: #e034be;
+    border: 1px solid #3453e0;
+    background: #3462e0;
     transition: 1s;
 }
 
@@ -95,7 +96,10 @@ nav .fa{
 
 @media(max-width: 700px){
     .text-box h1{
-    font-size: 20px;
+    font-size: 6vw;
+    }
+    .text-box p{
+        font-size: 4vw;
     }
     .nav-links ul li{
         display: block;
@@ -151,7 +155,7 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #fef3ff;
+    background: #f3f5ff;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -201,7 +205,7 @@ h2{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(226,0,0,0.7);
+    background: rgba(0, 8, 226, 0.7);
 }
 .layer h3{
     width: 100%;
